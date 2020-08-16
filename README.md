@@ -1,4 +1,4 @@
-CS 372 Intro to Computer Networks Program 2
+# Sockets File Transfer Program
 Programmer: Andrew Sunderland
 Last Modified: 3/8/2020
 
@@ -27,5 +27,5 @@ Running Instructions:
 At startup, the client will connect to the server.  Afterword the client will send the command, filename(if relevant) and data port to the server.  Once the server has verified the message, it will either send a directory listing or file back to the client.  If invalid input is received, it will let the client know with an error.  After the client receives the directory, it will print it to the screen, if it receives a file, it will check to see if the file already exists and if it does it will rename the incoming file by adding '_copy' to the end of it.  Either way, it will create a new file and copy the data from the message sent by the server.
 To quit on the server send an SIGINT signal.
 
-Extra Credit:
+Extra Features:
 The server and client are set up to send a file using binary, so any file type should be supported for sending as long as it's under 2GB.
