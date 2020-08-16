@@ -1,6 +1,8 @@
 # Sockets File Transfer Program
 Programmer: Andrew Sunderland
+
 Last Modified: 3/8/2020
+
 
 Compile Instructions:
 To compile the chatclient, simply use GCC with the following command:
